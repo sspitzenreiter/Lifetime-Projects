@@ -1,0 +1,7 @@
+select c.tanggal_pinjam,
+	   c.tanggal_kembali,
+       b.judul,
+       a.nama
+from peminjaman as c
+inner join anggota as a on c.id_anggota = a.id_anggota
+inner join buku as b on c.id_buku = b.id_buku

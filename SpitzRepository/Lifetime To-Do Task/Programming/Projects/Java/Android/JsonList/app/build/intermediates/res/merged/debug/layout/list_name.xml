@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/nama"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kota/TempatTinggal"
+        android:id="@+id/ktt"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tahun"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/thn"/>
+
+
+</RelativeLayout><!-- From: file:/C:/Users/BlueLightning/AndroidStudioProjects/JsonList/app/src/main/res/layout/list_name.xml -->

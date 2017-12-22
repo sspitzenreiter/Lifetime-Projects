@@ -1,0 +1,12 @@
+<?php
+session_start();
+$username='luthfi';
+$password='mnabil';
+$db='task_new';
+$host='localhost';
+$db_link=mysqli_connect($host,$username,$password,$db);
+$_SESSION["username"]="$username";
+$_SESSION["password"]="$password";
+$user=$_SESSION["username"];
+$pass=$_SESSION["password"];
+?>

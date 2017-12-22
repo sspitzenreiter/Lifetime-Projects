@@ -1,0 +1,104 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\USER>cd..
+
+C:\Users>cd..
+
+C:\>C:\xampp\mysql\bin
+'C:\xampp\mysql\bin' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>cd C:\xampp\mysql\bin
+
+C:\xampp\mysql\bin>mysql -u root
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 370
+Server version: 5.6.25 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2015, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use perpustakaan1
+Database changed
+mysql> select judul from buku inner join peminjaman on buku.id_buku=peminjaman.i
+d_buku;
++--------------------+
+| judul              |
++--------------------+
+| Dahareun sunda     |
+| Kuliner Nusantara  |
+| Masakan ala Betawi |
++--------------------+
+3 rows in set (0.00 sec)
+
+mysql> select * from peminjaman natural join buku;
++---------+-----------+------------+------------+-------------+-----------------
+---+---------------+-------------+
+| id_buku | id_pinjam | id_anggota | tgl_pinjam | tgl_kembali | judul
+   | penulis       | penerbit    |
++---------+-----------+------------+------------+-------------+-----------------
+---+---------------+-------------+
+| 002     | Z003      | C03        | 03-03-2013 | 04-03-2013  | Masakan ala Beta
+wi | asep sutisna  | Minah M.Pd  |
+| 003     | Z002      | B02        | 07-01-2013 | 07-02-2013  | Kuliner Nusantar
+a  | Nchi and koko | Cina M.Pd   |
+| 001     | Z001      | A01        | 12-12-2012 | 15-12-2013  | Dahareun sunda
+   | encep sutisna | jajang M.Pd |
++---------+-----------+------------+------------+-------------+-----------------
+---+---------------+-------------+
+3 rows in set (0.00 sec)
+
+mysql> select penulis,id_pinjam from buku cross join peminjaman;
++---------------+-----------+
+| penulis       | id_pinjam |
++---------------+-----------+
+| asep sutisna  | Z001      |
+| Nchi and koko | Z001      |
+| encep sutisna | Z001      |
+| asep sutisna  | Z002      |
+| Nchi and koko | Z002      |
+| encep sutisna | Z002      |
+| asep sutisna  | Z003      |
+| Nchi and koko | Z003      |
+| encep sutisna | Z003      |
++---------------+-----------+
+9 rows in set (0.00 sec)
+
+mysql> select nama from anggota left join peminjaman on anggota.id_anggota=pemin
+jaman.id_pinjam;
++------+
+| nama |
++------+
+| Tini |
+| Tono |
+| Tene |
++------+
+3 rows in set (0.00 sec)
+
+mysql> select penerbit from buku right join peminjaman on buku.id_buku=peminjama
+n.id_buku;
++-------------+
+| penerbit    |
++-------------+
+| Minah M.Pd  |
+| Cina M.Pd   |
+| jajang M.Pd |
++-------------+
+3 rows in set (0.00 sec)
+
+mysql> select nama from anggota left join peminjaman on anggota.id_anggota=pemin
+jaman.id_buku;
++------+
+| nama |
++------+
+| Tini |
+| Tono |
+| Tene |
++------+
+3 rows in set (0.00 sec)

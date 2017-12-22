@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ed88e1f0c8fbf66e1da918545f0a6790f893bceb">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\classes-56458fab73457a91fe96663ef0979815ee356f71.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\exploded-aar\com.koushikdutta.ion\ion\2.1.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8bbd470f524833532e041b110abe9e3d514d63eb">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\classes-9d8f23612b0571bddce0422bdf5e11a395e7906d.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1-2ed65c7a6083f665131c8e3a92d4ad06012e9fa5.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a6af5beedc2e8c946abc3771525e2fed77439309">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\classes-209da8f7172ca9e877484d6cea10818f6b3dd262.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9684c95278dc45a142d7de3db9e7e39aa520e1e0">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\classes-93eebcfe41ce18494f77f19ce7137b37c8d3c25a.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\gson-2.3-5212c5de4e825e0020eccfc6ed91985dd20e9e7a.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\classes-0b4d28563e1995c6e4995369496552aa13807615.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1-ef1a596d4af6f35553821efdcf39a7b4c085e5b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\exploded-aar\com.koushikdutta.async\androidasync\2.1.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="eace26bfd08119044e19e9fc0f9ae1bdffac83ed">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Test12\app\build\intermediates\pre-dexed\debug\classes-61a08f1828ee896c5e2a92256bebd53ed2f94f08.jar" />
+    </item>
+
+</items>

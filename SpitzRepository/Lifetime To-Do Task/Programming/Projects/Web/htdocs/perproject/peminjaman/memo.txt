@@ -1,0 +1,7 @@
+Hal utama : login + "welcome", hak akses : select
+
+cek sesi (masuk kemanapun harus login dulu)
+
+kode buku jangan auto increment
+
+pas mau minjem jangan pake combobox tapi pake id_anggota aja (input text)

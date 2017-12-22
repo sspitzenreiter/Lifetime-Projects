@@ -1,0 +1,344 @@
+
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+function startTime() {
+    var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var s=today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML = h+":"+m+":"+s;
+    var t = setTimeout(function(){startTime()},500);
+}
+
+function checkTime(i) {
+    if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+<script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="headline.js"></script>
+<script type="text/javascript"> 
+      $(document).ready(function(){
+	  		// untuk permulaan, tampilkan content nomor 1 '#slideAwal'
+	  		bukaContent($('#slideAwal'),'div1');			
+	    });
+	  </script>
+
+<script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="headline.js"></script>
+<script type="text/javascript"> 
+      $(document).ready(function(){
+	  		// untuk permulaan, tampilkan content nomor 1 '#slideAwal'
+	  		bukaContent($('#slideAwal'),'div1');			
+	    });
+	  </script>
+
+	
+</head>
+
+<body class="body">
+	
+	<header class="mainHeader">
+		<img src="image/head.jpg" width='100%'>
+	</header>
+		
+	<div class="mainHeader">	
+				<article class="menu">
+
+					<nav><ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Gallery.html">Gallery</a></li>
+			<li><a href="Profile.html">Contact Us</a></li>
+			<li class="active"><a href="Guest Book.html">Guest Book</a></li>
+					</ul></nav><table cellpadding='3' cellspacing='3' bgcolor='#ff66ff' width='100%'><tr><td>JAM</td></tr><tr><td bgcolor='pink'><center><body onload="startTime()"><h2><div id="txt"></div></h2></td></tr></table>
+
+				</article>
+				
+	</div>
+	<div>
+		<aside class="top-content">
+				<article>
+
+				<p><h2><a href="#" rel="bookmark" title="Permalink to this POST TITLE">TAMAN SAKURA</a></h2></p>
+
+					<footer>
+						<p class="post-info">This was posted on 15 Mei 2015 by Muhamad Abdurahman Rais</p>
+					</footer>
+
+<p><h2>Silahkan masukan data diri kamu :</h2></p>
+
+					<table cellspacing='2' cellpadding='2' color='white'>
+
+
+				<tr><td>
+					<form action="demo_form.asp" autocomplete="on">
+  				First name<td>:</td><td><input type="text" name="fname"></td></form>
+  				</td></tr>
+  				<tr><td>
+  				<form action="demo_form.asp" autocomplete="on">
+ 				Last name<td>:</td><td><input type="text" name="lname"></td>
+				</form>
+				<tr><td>
+				<form action="demo_keygen.asp" method="get">
+				Username<td>:</td><td><input type="text" name="usr_name"></td>
+				</form></td></tr>
+				<tr><td>
+				<form>
+				E-mail<td>:</td><td><input type="email" name="email" autocomplete="off"></td>
+  				</form></td></tr>
+  				<tr><td>
+				<form>
+ 				Birthday<td>:</td><td>
+  				<input type="date" name="bday">
+				</form></td></tr>
+				<tr><td>
+				<form>
+ 				 Select your favorite color<td>:</td><td>
+  				<input type="color" name="favcolor"></td>
+				</form></td></tr>
+				<tr><td>
+				<form>
+				Pet<td>:</td><td><input list="browsers">
+				<datalist id="browsers">
+ 				<option value="Bird">
+ 				<option value="Cat">
+ 				<option value="Dog">
+ 				<option value="Fish">
+ 				<option value="Horse">
+ 				<option value="Rat">
+  				<option value="Rabbit">
+				</datalist></td>
+				</form></td></tr>
+				<tr>
+				<td>Kritik & Saran</td><td>:</td><td><br><br><textarea name="INI" id="INI" cols='62' rows='8'> </textarea></td></tr>
+				
+				<tr><td>
+				<form>
+				<input type="submit">
+				<input type="reset">
+				</form>
+			</td></tr>
+			</table>
+
+				</article>
+		</aside>
+	</div>
+	<div>	
+		<aside class="middle-sidebar">
+				<article>
+<div id="divTrigger"><p><h2>SLIDE SHOW</h2></p>
+      <a href="javascript:;" onclick="bukaContent(this,&#39;div1&#39;)" id="slideAwal" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">1</a>
+      <a href="javascript:;" onclick="bukaContent(this,&#39;div2&#39;)" style="color: rgb(255, 255, 255); background-color: rgb(153, 0, 0);">2</a>
+      <a href="javascript:;" onclick="bukaContent(this,&#39;div3&#39;)" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">3</a>
+      <a href="javascript:;" onclick="bukaContent(this,&#39;div4&#39;)" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">4</a>
+    </div>			
+			<div id="divContent">
+      <div id="div1" style="display: none;">
+ 	     <span class="title"></span>
+ 	     <img src="image/7.jpg" align="left" width='100%' height='100%'></div>
+      <div id="div2" style="display: none;">
+ 	     <span class="title"></span>
+ 	     <img src="image/5.jpg" align="left" width='100%' height='100%'>
+      </div>
+      <div id="div3" style="display: block;">
+ 	     <span class="title"></span>
+ 	     <img src="image/6.jpg" align="left" width='100%' height='100%'></div> 
+      <div id="div4" style="display: none;">
+ 	     <span class="title"></span>
+ 	     <img src="image/Samping.png" align="left" width='100%' height='100%'> 
+      </div>
+    </div>
+				<div>
+<center><h2>KALENDDER</h2> <script type="text/javascript">
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+function maxDays(mm, yyyy){
+var mDay;
+    if((mm == 3) || (mm == 5) || (mm == 8) || (mm == 10)){
+        mDay = 30;
+      }
+      else{
+          mDay = 31
+          if(mm == 1){
+               if (yyyy/4 - parseInt(yyyy/4) != 0){
+                   mDay = 28
+               }
+               else{
+                   mDay = 29
+              }
+        }
+  }
+return mDay;
+}
+function changeBg(id){
+    if (eval(id).style.backgroundColor != "pink"){
+        eval(id).style.backgroundColor = "89FC63"
+    }
+    else{
+        eval(id).style.backgroundColor = "pink"
+    }
+}
+function writeCalendar(){
+var now = new Date
+var dd = now.getDate()
+var mm = now.getMonth()
+var dow = now.getDay()
+var yyyy = now.getFullYear()
+var arrM = new Array("Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec")
+var arrY = new Array()
+    for (ii=0;ii<=4;ii++){
+        arrY[ii] = yyyy - 2 + ii
+    }
+var arrD = new Array("Ming","Sen","Sel","Rab","Kam","Jum","Sab")
+
+var text = ""
+text = "<form name=calForm>"
+text += "<table border=0 bgcolor='pink'>"
+text += "<tr><td>"
+text += "<table width=100% bgcolor='pink'><tr>"
+text += "<td align=left >"
+text += "<select name=selMonth onChange='changeCal()'>"
+    for (ii=0;ii<=11;ii++){
+        if (ii==mm){
+            text += "<option value= " + ii + " Selected>" + arrM[ii] + "</option>"
+        }
+        else{
+            text += "<option value= " + ii + ">" + arrM[ii] + "</option>"
+        }
+    }
+text += "</select>"
+text += "</td>"
+text += "<td align=right>"
+text += "<select name=selYear onChange='changeCal()'>"
+    for (ii=0;ii<=4;ii++){
+        if (ii==2){
+            text += "<option value= " + arrY[ii] + " Selected>" + arrY[ii] + "</option>"
+        }
+        else{
+            text += "<option value= " + arrY[ii] + ">" + arrY[ii] + "</option>"
+        }
+    }
+text += "</select>"
+text += "</td>"
+text += "</tr></table>"
+text += "</td></tr>"
+text += "<tr><td>"
+text += "<table border=0 bgcolor='white'>"
+text += "<tr>"
+    for (ii=0;ii<=6;ii++){
+        text += "<td align=center><span class=label>" + arrD[ii] + "</span></td>"
+    }
+text += "</tr>"
+aa = 0
+    for (kk=0;kk<=5;kk++){
+        text += "<tr>"
+        for (ii=0;ii<=6;ii++){
+            text += "<td align=center><span id=sp" + aa + " onClick='changeBg(this.id)'>1</span></td>"
+            aa += 1
+        }
+        text += "</tr>"
+    }
+text += "</table>"
+text += "</td></tr>"
+text += "</table>"
+text += "</form>"
+document.write(text)
+changeCal()
+}
+function changeCal(){
+var now = new Date
+var dd = now.getDate()
+var mm = now.getMonth()
+var dow = now.getDay()
+var yyyy = now.getFullYear()
+var currM = parseInt(document.calForm.selMonth.value)
+var prevM
+    if (currM!=0){
+        prevM = currM - 1
+    }
+    else{
+        prevM = 11
+    }
+var currY = parseInt(document.calForm.selYear.value)
+var mmyyyy = new Date()
+mmyyyy.setFullYear(currY)
+mmyyyy.setMonth(currM)
+mmyyyy.setDate(1)
+var day1 = mmyyyy.getDay()
+    if (day1 == 0){
+        day1 = 7
+    }
+var arrN = new Array(41)
+var aa
+    for (ii=0;ii<day1;ii++){
+        arrN[ii] = maxDays((prevM),currY) - day1 + ii + 1
+    }
+    aa = 1
+    for (ii=day1;ii<=day1+maxDays(currM,currY)-1;ii++){
+        arrN[ii] = aa
+        aa += 1
+    }
+    aa = 1
+    for (ii=day1+maxDays(currM,currY);ii<=41;ii++){
+        arrN[ii] = aa
+        aa += 1
+    }
+    for (ii=0;ii<=41;ii++){
+        eval("sp"+ii).style.backgroundColor = "transparent"
+    }
+var dCount = 0
+    for (ii=0;ii<=41;ii++){
+        if (((ii<7)&&(arrN[ii]>20))||((ii>27)&&(arrN[ii]<20))){
+            eval("sp"+ii).innerHTML = arrN[ii]
+            eval("sp"+ii).className = "c3"
+        }
+        else{
+            eval("sp"+ii).innerHTML = arrN[ii]
+            if ((dCount==0)||(dCount==6)){
+                eval("sp"+ii).className = "c2"
+            }
+            else{
+                eval("sp"+ii).className = "c1"
+            }
+            if ((arrN[ii]==dd)&&(mm==currM)&&(yyyy==currY)){
+                eval("sp"+ii).style.backgroundColor="pink"
+            }
+        }
+    dCount += 1
+        if (dCount>6){
+            dCount=0
+        }
+    }
+}
+//  End -->
+</script>
+</HEAD>
+<!-- STEP TWO: Copy this code into the BODY of your HTML document  -->
+<BODY>
+<script type="text/javascript">writeCalendar()</script>
+				</article>
+		</aside>				
+	</div>
+	
+
+	<footer class="mainFooter">
+		<div class='right'>
+			<	<p>Tugas Project 5/19/2015</p>
+		</div>
+	</footer>
+
+</body>
+</html>

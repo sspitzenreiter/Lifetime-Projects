@@ -1,0 +1,61 @@
+Database Ver. 1 Alpha 1 (Changelog)
+
+First Release :)
+
+
+Database Ver. 1 Alpha 2 (Changelog)
+
+- Penambahan untuk Kelas
+- Penggolongan Jurusan untuk Kelas 10 dan 11-12 (Switch Case PHP)
+
+Database Ver. 1 Alpha 3 (Changelog)
+
+- Bug Fix (Error Masukin ID untuk Kelas)
+- Penambahan untuk Memasukan Gender (L & P)
+
+Database Ver. 1 Alpha 4 (Changelog)
+
+- Bug Fix (Gender Gagal dimasukkan)
+- Ganti Input Type untuk "Agama" Menjadi Radio
+
+Database Ver 1 Alpha 1 (Changelog)
+
+- Penambahan Fitur Edit Data dan Delete Data
+
+
+
+Database Ver. 1 Beta 1 (Changelog)
+
+- Ganti Keseluruhan ID database dan penambahan ID untuk Database
+- Bug Fix untuk Edit dan Delete (Reconstruct Script)
+- Edit bisa membaca Kelas, Agama, dan Gender (Switch Case)
+- Penambahan "id"
+
+Database Ver. 1 Beta 2 (Changelog)
+
+- Penambahan Fitur memilih Golongan Darah
+- Edit Design Data
+
+Database Ver. 2 Beta 1 (Changelog)
+
+- Reconstruct Script
+
+Database Ver. 2 Beta 2 (Changelog)
+
+- Penyatuan fitur Edit dan Delete ke dalma Admin Mode
+- Penambahan Judul "Daftar Anggota JPC"
+- Testing fitur baru untuk ke Ver. Selanjutnya
+
+Database Ver. 2 Beta 3 (Changelog)
+
+- Bugfix (Script Error)
+- Pemindahan lokasi folder database
+
+Database Ver. 2 Beta 4 (Changelog)
+
+- Testing Fitur "Detail Profile"
+
+
+Database Ver. 2 Beta 5 (Changelog)
+
+- Pengurangan Jumlah Kolom pada tabel "List"

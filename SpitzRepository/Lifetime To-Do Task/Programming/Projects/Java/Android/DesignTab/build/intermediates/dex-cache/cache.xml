@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\DesignTab\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\DesignTab\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-f947a9c27d07c5e0d3e94a5c161095ca3ddd1a13.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\DesignTab\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\DesignTab\app\build\intermediates\pre-dexed\debug\classes-1fd73fa5bf6b6c328a0085b688726ee124fc16f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\DesignTab\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\DesignTab\app\build\intermediates\pre-dexed\debug\classes-b53dbc1f54ec2cb9dab0b0c66b11a3a591baddea.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\DesignTab\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-f31fed7ae16d993da377eff7d0bf04caf704392a.jar" />
+    </item>
+
+</items>

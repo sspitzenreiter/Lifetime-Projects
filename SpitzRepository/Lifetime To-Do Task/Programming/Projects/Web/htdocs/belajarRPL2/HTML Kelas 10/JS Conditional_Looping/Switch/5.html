@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Orange">
+
+<p id="demo"></p>
+
+<script>
+var text;
+var fruits = document.getElementById("myInput").value;
+
+switch(fruits) {
+    case "Banana"
+        text = "Banana is good!";
+    case "Orange"
+        text = "I am not a fan of orange.";
+    case "Apple"
+        text = "How you like them apples?";
+    default
+        text = "I have never heard of that fruit.";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>

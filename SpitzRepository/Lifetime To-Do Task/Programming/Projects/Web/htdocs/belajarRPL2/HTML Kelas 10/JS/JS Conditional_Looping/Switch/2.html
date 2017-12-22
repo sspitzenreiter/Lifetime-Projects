@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text;
+switch (new Date().getDay()) {
+    case 1:
+        text = "Today is Monday";
+        break;
+    case 0:
+        text = "Today is Sunday";
+        break;
+    default:
+        text = "Looking forward to the Weekend";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>

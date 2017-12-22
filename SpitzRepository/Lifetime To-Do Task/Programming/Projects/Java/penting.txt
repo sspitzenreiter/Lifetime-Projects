@@ -1,0 +1,3 @@
+Iheritansi
+Overloading (di tulis di buku)
+Java Array(dalam bentuk softcopy)

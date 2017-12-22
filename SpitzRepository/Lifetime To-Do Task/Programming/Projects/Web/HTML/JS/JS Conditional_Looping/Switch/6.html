@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Select one of these cars : <b>BMW</b>,<b>Ford</b>,
+<b>Peugeot</b></p>
+<input id="myInput" type="text" onkeypress="func()">
+<p id="demo"></p>
+<script>
+function func()
+{
+var text;
+var cars = document.getElementById("myInput").value;
+
+switch(cars) {
+    case "BMW":
+        text = "Guten Tag!";
+        break;
+    case "Ford":
+        text = "Good Day!";
+        break;
+	case "Peugeot":
+		text = "Bonjour!";
+		break;
+    default:
+        text = "Unknown car name.";
+}
+document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+

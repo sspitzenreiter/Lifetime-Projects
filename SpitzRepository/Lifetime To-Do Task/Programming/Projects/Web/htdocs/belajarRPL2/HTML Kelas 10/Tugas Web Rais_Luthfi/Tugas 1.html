@@ -1,0 +1,74 @@
+<HTML>
+<HEAD>
+<TITLE>Pengaturan Pada Form Tombol</TITLE>
+<STYLE ="text/css">
+input.button { color: #fff; background: #ffa20f; border: 2px outset #BBD16D;
+			font-family: "calibri", Times, serif; font-size: 14px;
+			font-weight: bold; width : auto; }
+input.button:hover { color: #fff; background: #0c62a4;
+			/*biru kayak judul header*/ border: 2px outset #ffa20f;
+			font-family: "calibri", Times, serif; font-size: 14px; font-weight: bold;}
+td.1 {width:58px;}
+td.2 {width:230px;}
+legend {background: orange; color: white}
+fieldset {width:450px;height:182px;background: #c6c6c6}
+</STYLE>
+<fieldset><legend>Pekerjaan</legend>
+</HEAD>
+<BODY>
+ <table width="450" cellspacing='2'>
+<form name="form1" method="post" action="">
+<TABLE >
+
+<TR>
+<td class="1">Nama </TD>
+<td class="2">: <input type="text" name="nama" placeholder ="Nama"> </TD>
+</TR>
+
+<TR>
+<td class="1">KTP</TD>
+<td class="2">: <input type ="text" name="KTP" placeholder="No. KTP"> </TD>
+
+</TR>
+<TR>
+<td class="1">Kelamin</td>
+<td class="2">: <input list="JK" name="JeKe" placeholder="Jenis Kelamin">
+<datalist id ="JK">
+   <option value="Laki - Laki">
+   <option value="Perempuan">
+   </datalist>
+
+<tr>
+<td class="1">TTL</td>
+<td class="2">  : <input type="text" name="TTL"></td>
+<td class="2"><input type ="text" name="TTL"></td>
+</tr>
+
+<tr>
+<td class="1">Agama</td>
+<td class="2">: <input list="agama" name="agm" placeholder="Agama">
+<datalist id="agama">
+<option value="Islam">
+<option value="Kristen">
+<option value="Hindu">
+<option value="Buddha">
+<option value="Katolik">
+</datalist>
+</tr>
+<tr>
+<td class="1">Status</td>
+<td class="2">: <input list="status" name="stt" placeholder="Status">
+<datalist id="status">
+<option value="Lajang">
+<option value="Kawin">
+</datalist>
+</tr>
+<TR>
+<TD><input class="button" type="submit" name="Submit" value="Simpan" align='left'></TD>
+<TD ><input class="button" type="submit" name="Submit2" value="Submit"> </TD>
+</TR>
+</TABLE>
+</form>
+</fieldset>
+</BODY>
+</HTML>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input type="text" id="a">
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+	var jum = document.getElementById("a").value;
+    var x = "", i;
+    for (i=0; i<jum; i++) {
+        x = x + "The number is " + i + "<br>";
+    }
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?php
+	include "konek.php";
+	
+	$k1=$_GET['nama'];
+	$k2=$_GET['kelas'];
+	$k3=$_GET['jk'];
+	$id=$_GET['id'];
+	$sql = "insert into anggota(nama,id_kelas,jk) values('$k1','$k2','$k3')";
+	$query = mysqli_query($db_link,$sql);
+	
+	if($query)
+	{
+		header('location:user_add.php');
+	}
+	else
+	{	
+		echo "Gagal Disimpan";
+	}
+	
+?>							

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title> Tugas Dari Luthfi </title>
+</head>
+<body>
+<table cellpadding="5" cellspacing="5" border="1" bgcolor="#6495ed" align="center">
+	<tr bgcolor="#b0e0e6">
+		<td><h1> Kalkulator Bilangan dan Rata-rata </h1></td>
+	</tr>
+	<tr bgcolor="#b0e0e6">
+		<td><img src="gambarbg.jpeg" width="100" height="60"></td>
+		<td>
+		<?php
+			$ang.$i.=$_REQUEST['a".$i."'];
+			$hasil=$ang.$i.*.$banyak.;
+			$rata=$hasil/2;
+			
+			echo "Hasilnya : ";
+			echo $hasil;
+			echo "Rata-ratanya : ";
+			echo $rata;
+			
+		?>
+		</td>
+	</tr>
+	<tr bgcolor="#b0e0e6">
+		<td><footer><center><font face="Monotype Corsiva" color="#4169e1"> copyright&copy Meidiyanah.2105@gmail.com </font></center></footer></td>
+	</tr>
+</table>
+</body>
+</html>

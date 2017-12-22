@@ -1,0 +1,322 @@
+body,li,ul,div,h2{
+	margin : 0;
+	padding : 0;
+}
+a{
+	text-decoration : none;
+	color : #efeded;
+}
+body{
+	background : #181818;
+}
+#wrap-utama{
+	width : 1200px;
+	height : 760px;
+	margin : 0 auto;
+	left : 146px;
+}
+#wrap-kedua{
+	left : 146px;
+	margin : 0 auto;
+	padding : 0;
+	width : 970px;
+	height : 760px;
+	background : grey;
+}
+#header{
+	margin : 0 auto;
+	padding : 0;
+	font-family : segoe ui;
+	font-size : 72px;
+	color : #dce0e0;
+	background : green;
+}
+#header-teks{
+	width : auto;
+	float : left;
+}
+#cari{
+	width : auto;
+	float : right;
+}
+#cari-kata{
+	transition : 0.2s width,0.2s box-shadow;
+	width : 130px;
+	color : #eff1ef;
+	margin-right : 0;
+	border : none;
+	background : none;
+	border-bottom : 2px solid #41c413;
+	box-shadow: 0 4px 3px -3px #41c413;
+}
+#cari-kata:focus{
+	transition : 0.2s width,0.2s box-shadow;
+	width : 200px;
+	border : none;
+	border-bottom : 2px solid #e7c714;
+	box-shadow: 0 8px 6px -6px #e7c714;
+}
+#cari-klik{
+	background : url(gambar/cari.gif) no-repeat;
+	background-size : 19px;
+	border : none;
+}
+
+#menu-background{
+	position : absolute;
+	width : 150px;
+	height : 790px;
+	top : 99px;
+	left : 146px;
+	z-index : -1;
+	background : #c33c3c;
+	box-shadow : 5px 3px 4px #28e3f9;
+}
+
+#menu{
+	width : 200px;
+	height : 750px;
+	float : left;
+	margin : 0;
+	padding-left : 20px;
+	padding-top : 20px;
+	font-family : segoe ui;
+}
+ul{
+	list-style : none;
+	padding : 0;
+	margin : 0;
+}
+.menu-li1{
+	font-size : 40px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	padding-left : 20px;
+	margin-bottom : 10px;
+	background : rgba(92,219,219,0.4);
+	transition : 0.2s margin-left;
+}
+.menu-li1:hover{
+	transition : 0.2s margin-left;
+	margin-left : 30px;
+}
+.menu-li{
+	font-size : 25px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	padding-left : 20px;
+	margin-bottom : 10px;
+	background : rgba(92,219,219,0.4);
+	transition : 0.2s margin-left;
+}
+.menu-li:hover{
+	transition : 0.2s margin-left;
+	margin-left : 30px;
+}
+
+
+#konten{
+	overflow : hidden;
+	width : 910px;
+	height : 760px;
+	float : right;
+	background : #127c7c;
+	margin : 0 auto;
+	padding-left : 20px;
+	padding-right : 20px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+#konten-utama{
+	overflow : auto;
+	/*width : 550px;*/
+	width : 610px;
+	height : 735px;
+	float : left;
+	margin : 0;
+	padding : 10px;
+}
+.konten-menu{
+	background : linear-gradient(to bottom,#329232 0%,#338a33 80%,#338033 100%);
+	height : auto;
+	width : 250px;
+	float : right;
+	margin-top : 10px;
+	padding : 10px;
+}
+
+#footer{
+	background : #181818;
+	color : #fff;
+	text-align : center;
+	height : 30px;
+	width : 100%;
+	padding-top : 20px;
+	padding-bottom : 30px;
+}
+
+.berita-list{
+	background : linear-gradient(to bottom,#f2f2f1 0%,#d1d2d0 80%,#9e9e9e 100%);
+	padding : 10px;
+	width : 550px;
+	overflow : hidden;
+	margin-bottom : 20px;
+}
+.tgl-terbit{
+	font-family : lao ui;
+	border : 1px solid black;
+	float : left;
+	padding : 5px;
+	text-align : center;
+	width : 90px;
+	overflow : hidden;
+	border-top-right-radius : 35px;
+	border-top-left-radius : 15px;
+	border-bottom-right-radius : 15px;
+	border-bottom-left-radius : 35px;
+	transform : rotate(-30deg);
+	margin-bottom : 10px;
+	margin-right : 10px;
+	box-shadow : 0 3px 2px #000;
+}
+.judul{
+	float : left;
+	padding : 5px;
+}
+.judul-berita{
+	color : #000;
+	font-family : chiller;
+	font-size : 45px;
+}
+.judul-berita:hover{
+	text-decoration : underline;
+}
+.kategori{
+	font-size : 13px;
+	font-family : kalinga;
+	margin-right : 10px;
+}
+.a-kategori{
+	color : blue;
+	font-style : italic;
+}
+.a-kategori:hover{
+	text-decoration : underline;
+}
+.penulis{
+	font-size : 13px;
+	font-family : segoe ui;
+}
+.gambar{
+	float : right;
+	overflow : hidden;
+}
+.gambar-gambar{
+	max-height : 80px;
+}
+.p-berita{
+	text-indent : 30px;
+	text-align : justify;
+	margin-top : 0;
+}
+.baca-berita{
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 2px;
+	padding-bottom : 2px;
+	width : 35px;
+	background : linear-gradient(to top,#162893 0%,#3348c6 50%);
+}
+.baca-berita:hover{
+	background : linear-gradient(to top,#bb2432 0%,#71222a 50%);
+}
+
+#about{
+	padding : 20px;
+	background : #e2e3e1;
+	border-radius : 20px;
+}
+#berita-baca{
+	margin : 5px;
+	padding : 20px;
+	background : rgba(255,255,255,0.5);
+	box-shadow : 0 0 4px #000;
+	border-radius : 20px;
+	text-align : center;
+}
+#berita-isi-isi{
+	text-indent : 30px;
+	text-align : justify;
+}
+
+#login-form{
+	text-align : center;
+	font-family : mangal;
+}
+#login-judul{
+	font-size : 30px;
+}
+.login-in{
+	height : 24px;
+	border : none;
+	border-radius : 5px;
+	padding-left : 5px;
+	padding-right : 5px;
+}
+.login-tom{
+	margin-top : 5px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+	padding-left : 7px;
+	padding-right : 7px;
+	background : linear-gradient(to top,#16285a 0%,#324477 50%,#43568f 100%);
+	border : none;
+	color : white;
+}
+
+#logged-foto{
+	float : right;
+}
+#logged-foto img{
+	max-height : 100px;
+}
+
+#berita-tambah-judul{
+	font-size : 40px;
+}
+.berita-atur-tabel th{
+	background : #000;
+	border : 1px solid #000;
+	color : #f0f2f0;
+}
+.berita-atur-tabel td{
+	text-align : center;
+	overflow : hidden;
+}
+.berita-atur-aksi{
+	text-align : left;
+	background : rgba(112,38,213,0.5);
+	position : absolute;
+	z-index : 1;
+	padding : 5px;
+	overflow : hidden;
+	transition : 0.3s width;
+	width : 10px;
+	height : 20px;
+	color : #fdbf04;
+	text-shadow : 0 0 4px #fdbf04;
+}
+.berita-atur-aksi:hover{
+	transition : 0.3s width;
+	width : 90px;
+}
+.berita-atur-td1{
+	vertical-align : top;
+}
+.berita-atur-gb{
+	margin-top : 30px;
+}
+
+#berita-edit-judul{
+	font-size : 40px;
+}

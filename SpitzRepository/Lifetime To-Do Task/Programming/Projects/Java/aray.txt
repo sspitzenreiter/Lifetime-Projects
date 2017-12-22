@@ -1,0 +1,9 @@
+import static java.lang.System.out;
+
+class aray {
+public static void main (String args[]){
+	String hari[5]={"Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu","Minggu","Ahad"};
+	for(int a=0; a<=5; a++)
+	{out.print(hari[a])}
+	}
+}

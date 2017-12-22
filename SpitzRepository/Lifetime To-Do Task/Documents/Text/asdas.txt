@@ -1,0 +1,33 @@
+Basis Data
+
+BASIS DATA (database) adalah kumpulan informasi 
+yang disimpan di dalam komputer secara sistematik 
+sehingga dapat diperiksa menggunakan suatu program 
+komputer untuk memperoleh informasi dari basis data 
+tersebut.
+
+
+Entitas
+
+Entitas adalah orang, tempat, kejadian atau konsep yang informasinya 
+direkam. Pada bidang kesehatan Entity adalah Pasien, Dokter, Kamar.
+
+
+Atribut
+
+Atribut merupakan karakteristik dari Entitas atau relasi, 
+yang menyediakan penjelasan detail tentang entity atau relasi tersebut. 
+Atau merupakan nama-nama property dari sebuah kelas yang menjelaskan batasan 
+nilainya dari property yang dimiliki oleh sebuah kelas tersebut. Atribut dari 
+sebuah kelas mempresentasikan property-property yang dimiliki oleh kelas tersebut.
+
+
+Hirarki Basis Data
+
+merupakan model data yang dimana data tersebut diatur dengan struktur data tree. Struktur
+ini dapat mewakili informasi menggunakan hubungan child/parent: setiap  parent dapat memiliki 
+banyak child, tetapi setiap child hanya boleh memiliki satu parent (yang dikenal juga dengan hubungan 1-ke-banyak). 
+Seluruh atribut dari record yang ditentukan telah diatur dengan tipe entitas.
+
+Tuple (Record) adalah: Kumpulan elemen-elemen yang saling berkaitan menginformasikan tentang suatu 
+entitas secara lengkap. Dan suatu tuple (record) mewakili satu data atau informasi.

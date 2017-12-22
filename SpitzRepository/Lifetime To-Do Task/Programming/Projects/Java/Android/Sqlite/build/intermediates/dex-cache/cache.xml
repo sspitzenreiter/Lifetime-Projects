@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9684c95278dc45a142d7de3db9e7e39aa520e1e0">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\pre-dexed\debug\classes-5695f6cc3c92c88b5bfa8d9db0ba5ca8d54a669d.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1-ef1a596d4af6f35553821efdcf39a7b4c085e5b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1-76aea607abc9ef92f5c55eb85cb657ab1441c925.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ed88e1f0c8fbf66e1da918545f0a6790f893bceb">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\pre-dexed\debug\classes-026c0a911be27f915e9aeeb72afb823626b6b8d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a6af5beedc2e8c946abc3771525e2fed77439309">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\pre-dexed\debug\classes-e8eb3313b30bcea4069a0566076ba3a3bef94fc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Sqlite\app\build\intermediates\pre-dexed\debug\classes-535cd6d828f0f5ac22a2c5fc5e0f482d55a24d42.jar" />
+    </item>
+
+</items>

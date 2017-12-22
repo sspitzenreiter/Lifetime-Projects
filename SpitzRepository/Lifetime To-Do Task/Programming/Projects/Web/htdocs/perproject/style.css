@@ -1,0 +1,68 @@
+body{
+	background-color:#94CEDA;
+	font-family:calibri;
+}
+th{
+	background-color:#00253F;
+	color:white;
+	border:0px;
+	padding:35;
+	font-size:20;
+}
+.side{
+	background-color:#00253F;
+	color:white;
+}
+
+p{
+	
+}
+.top{
+	background-color:#1C97C0;
+}
+
+table{
+	border:solid white;
+	background-color:white;
+}
+
+.44{
+	background-color:#94CEDA;
+}
+
+td{
+	border:1px solid gray;
+	background-color:#94CEDA;
+}
+
+.tab{
+	background-color:#1C97C0;
+}
+
+.menu{
+	background-color:#94CEDA;
+	color:white;
+	padding:8;
+	margin-left:5;
+}
+a{
+	
+	color:#114E84;
+	padding:8;
+	margin-left:5;
+}
+.bg{
+	background-color:#94CEDA;
+}
+td{
+	border:0;
+}
+
+.search{
+	background-color:#114E84;
+	
+}
+.search table td{
+	border:none;
+	padding:15 5 5 5;
+}	

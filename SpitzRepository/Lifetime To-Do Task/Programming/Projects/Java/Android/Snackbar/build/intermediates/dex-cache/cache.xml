@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\pre-dexed\debug\classes-eaedc706edde4b6afa2d14e3170aa2c2a8853726.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-e453a4fdac5b14ad6cc997515c44f6e0d51b0027.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-e48da2cbeee0047895dac38ade3460750a72b23e.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\pre-dexed\debug\classes-11cf42e056a49179845ba4c39929b1eb80399210.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\Snackbar\app\build\intermediates\pre-dexed\debug\classes-f123736b5d20ac6bba0a54a29eae57431d3b4792.jar" />
+    </item>
+
+</items>

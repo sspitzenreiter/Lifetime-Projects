@@ -1,0 +1,9 @@
+/* Top Header */
+
+div#header-wrap {
+position: fixed;
+height: auto;
+width: 100%;
+z-index:100;
+color:black;
+}

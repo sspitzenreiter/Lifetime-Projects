@@ -1,0 +1,2 @@
+select * from anggota right join peminjaman
+on anggota.id_anggota = peminjaman.id_anggota

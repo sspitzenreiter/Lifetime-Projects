@@ -1,0 +1,1 @@
+SELECT * FROM peminjaman NATURAL JOIN buku ;

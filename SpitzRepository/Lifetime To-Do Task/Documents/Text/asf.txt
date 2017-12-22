@@ -1,0 +1,142 @@
+1. Tampilkan data anggota dan kelahirannya pada tahun 2000
+2. tampilkan data buku yang penerbitnya Andi offset.
+3. Tampilkan anggota yang beralamat di bandung
+4. Tampilkan data buku yang diterbitkan oleh Informatika
+5. Tampilkan data anggota yang meminjam buku java
+6. Tampilkan data anggota yang meminjam hari ini
+7. Tampilkan data buku yang belum kembali beserta nama anggota yang meminjam.
+
+Fungsi tanggal dipelajari
+
+
+1.tampilkan jumlah buku yang dipinjam oleh setiap anggota dalam tahun 2015
+2.tampilkan buku yang paling sedikit dipinjam
+3.tampilkan data anggota yang meminjam buku yang sama lebih dari 2 kali
+4.tampilkan rata-rata peminjaman setiap buku dalam 1 tahun
+
+
+
+fungsi aggregat isi : SUM, AVG, Min/max,count,
+command : u order by, having, group by,distinct,union 
+
+Backup & Reccovery
+
+SELECT
+	a.nama_anggota,
+	a.tlp_anggota,
+	b.alamat
+FROM anggota AS a
+INNER JOIN alamat AS b
+ON a.id_anggota = b.id_anggota
+
+
+materi
+
+contoh update
+
+UPDATE nama tabel
+set nama kolom = "isinya"
+
+delete
+
+delete from nama tabel
+
+
+Query no 1
+
+SELECT
+	a.nama_anggota,
+	a.tlp_anggota,
+	a.tgl_lahir,
+	b.alamat,
+	b.kelurahan,
+	b.kecamatan,
+	b.kota_kab,
+	b.kode_pos
+FROM anggota AS a
+INNER JOIN alamat AS b
+ON a.id_anggota = b.id_anggota
+WHERE tgl_lahir LIKE "%2000%"
+
+Query no 2
+
+SELECT
+	a.judul,
+	a.pengarang,
+	b.nama_penerbit,
+	b.alamat_penerbit
+FROM buku AS a
+INNER JOIN penerbit AS b
+ON a.idpenerbit = b.id_penerbit
+WHERE nama_penerbit = "Andi Offset"
+
+Query no 3
+
+SELECT
+	a.nama_anggota,
+	a.tgl_lahir,
+	b.alamat,
+	b.kota_kab
+FROM anggota AS a
+INNER JOIN alamat AS b
+ON a.id_anggota = b.id_anggota
+WHERE kota_kab = "Bandung"
+
+Query no 4
+
+SELECT
+	a.judul,
+	a.pengarang,
+	b.nama_penerbit,
+	b.alamat_penerbit
+FROM buku AS a
+INNER JOIN penerbit AS b
+ON a.idpenerbit = b.id_penerbit
+WHERE nama_penerbit = "Informatika"
+
+Query no 5
+
+SELECT
+	a.nama_anggota,
+	b.judul,
+	b.pengarang,
+	c.tgl_pinjam,
+	c.tgl_kembali
+FROM peminjaman AS c
+INNER JOIN anggota AS a
+ON c.id_anggota = a.id_anggota
+INNER JOIN buku AS b
+ON c.id_buku = b.id_buku
+where judul = "Java"
+
+Query no 6
+
+SELECT
+	a.nama_anggota,
+	b.judul,
+	b.pengarang,
+	c.tgl_pinjam,
+	c.tgl_kembali,
+	CURDATE()
+FROM peminjaman AS c
+INNER JOIN anggota AS a
+ON c.id_anggota = a.id_anggota
+INNER JOIN buku AS b
+ON c.id_buku = b.id_buku
+WHERE tgl_pinjam = CURDATE()
+
+
+Query no 7
+
+SELECT
+	a.nama_anggota,
+	b.judul,
+	b.pengarang,
+	c.tgl_pinjam,
+	c.tgl_kembali
+FROM peminjaman AS c
+INNER JOIN anggota AS a
+ON c.id_anggota = a.id_anggota
+INNER JOIN buku AS b
+ON c.id_buku = b.id_buku
+WHERE tgl_kembali IS NULL

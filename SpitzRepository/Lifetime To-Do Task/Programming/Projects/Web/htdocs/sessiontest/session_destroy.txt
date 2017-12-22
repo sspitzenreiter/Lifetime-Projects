@@ -1,0 +1,10 @@
+<?php
+session_destroy();
+?>
+<html>
+<body>
+<form action="sessionloc.php">
+<input type="submit">
+</form>
+</body>
+</html>

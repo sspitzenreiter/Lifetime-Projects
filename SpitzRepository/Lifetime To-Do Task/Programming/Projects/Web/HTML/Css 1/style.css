@@ -1,0 +1,229 @@
+
+   
+body { 
+	background-color: #ffccff;
+	color: #000305;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+	
+.body {
+	clear: both; 
+	margin: 0 auto; 
+	width: 100%;
+	height: 70%;
+}
+	
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+h2 {font-size: 1.571em}	/* 22px */
+
+h2 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+
+.p{
+width:100%;
+height:100%;
+}
+   
+a {
+	outline: 0;
+	}
+
+a img {
+	border: 0px; 
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #ff0099;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #ff0099;
+	color: White;
+	text-decoration: none;
+}
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+   
+.mainHeader nav {
+	background: #ff66ff;
+	font-size: 1.143em;
+	height: 109%;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left; 
+	display: inline; 
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: white;
+	display: inline-block;
+	height: 40px;
+	padding: 5px 5px;
+	text-decoration: none;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #ff0099;
+	color: white;
+	text-shadow: none !important;
+	width: 250px;
+}
+	
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader img {
+	width: 100%;
+	height: auto;
+	margin: 3% 0;
+}
+
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.menu {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 0% 0%;	
+	margin-bottom: 3%;
+	width:10%;
+	height: 54.6%;
+	float: left;
+}
+
+.top-content {
+	width: 50%;
+	height: 140%;
+	float: left;
+	margin-left: 8%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	
+	padding: 3% 3%;w
+	margin-bottom: 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+
+/* ===========================
+   ======== Sidebar ========== 
+   =========================== */
+
+
+
+.middle-sidebar {
+	width: 18%;
+	height: 146%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	
+	padding: 2% 2%;
+	margin-bottom: 2%;
+}
+
+
+/* ===========================
+   ========= Footer ========== 
+   =========================== */
+
+.mainFooter {
+	width: 100%;
+	height: 15%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 0;
+	background-color: #ff66ff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	color: black;	
+}
+
+.mainFooter p {
+	width: 100%;
+	margin: 2% auto;
+}
+
+
+.right {
+    float: right;
+    width:65%;
+}
+#divTrigger a:link,#divTrigger a:visited{
+	 	text-decoration: none; /* hilangkan garis bawah pada link */
+	 	margin:4px 0px; /* memberi jarak antar link */
+	 	padding: 1px 4px; /* menjadikan link berada dalam kotak */
+	 	border: 1px solid #000;
+	  background-color: #FFF;
+	  color: #000;
+	 }
+	 /* link yang dilalui oleh mouse dan element dengan class='selected' akan mempunyai efek yang sama */
+	 #divTrigger a:hover,#divTrigger a:active,.selected{ 
+	    background-color: #00A;
+	    color: #FFF;
+	 }
+	 #divContent{
+	 	margin-top:4px;
+	 	border:0px solid #000;
+	 	height: 270px;
+	 	padding: 4px;
+	 }
+	 #divContent div{ 
+	 	/* semua div di dalam element dengan id='divContent' akan di sembunyikan sementara */
+	 	display:none
+	 }	

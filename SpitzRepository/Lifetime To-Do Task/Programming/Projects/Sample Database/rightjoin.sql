@@ -1,0 +1,1 @@
+SELECT * FROM peminjaman RIGHT JOIN buku ON peminjaman.id_buku = buku.id_buku;

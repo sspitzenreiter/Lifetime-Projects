@@ -1,0 +1,1 @@
+SELECT nama,judul FROM anggota CROSS JOIN buku;

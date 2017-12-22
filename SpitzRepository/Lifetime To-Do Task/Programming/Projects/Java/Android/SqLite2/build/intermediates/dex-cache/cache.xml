@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\SqLite2\app\libs\httpclient-4.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="733db77aa8d9b2d68015189df76ab06304406e50">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\SqLite2\app\build\intermediates\pre-dexed\debug\httpclient-4.5.2-acad8c6fd66dd19c025a7992e5e0307ef83f778d.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\SqLite2\app\libs\httpcore-4.4.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b31526a230871fbe285fbcbe2813f9c0839ae9b0">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\SqLite2\app\build\intermediates\pre-dexed\debug\httpcore-4.4.4-19164a485967b0eae70dc68cc506c4b3dee2fa0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\BlueLightning\AndroidStudioProjects\SqLite2\app\libs\httpmime-4.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="22b4c53dd9b6761024258de8f9240c3dce6ea368">
+        <dex dex="C:\Users\BlueLightning\AndroidStudioProjects\SqLite2\app\build\intermediates\pre-dexed\debug\httpmime-4.5.2-59823134235f9ddf9345cc7018719fffbb6588ec.jar" />
+    </item>
+
+</items>

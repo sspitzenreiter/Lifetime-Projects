@@ -1,0 +1,25 @@
+OOP
+
+Pemrograman Berorientasi Objek (Object Oriented Programming/OOP) merupakan 
+pemrograman yang berorientasikan kepada objek, dimana semua data dan fungsi 
+dibungkus dalam class-class atau object-object.
+
+
+
+Kelas (Class)
+
+kumpulan atas definisi data dan fungsi-fungsi dalam suatu unit untuk suatu tujuan tertentu. 
+Sebuah class adalah dasar dari modularitas dan struktur 
+dalam pemrograman berorientasi object. 
+
+
+Objek (Object)
+
+Membungkus data dan fungsi  menjadi suatu unit dalam sebuah program computer. 
+
+
+
+Java
+Java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer termasuk telepon genggam. 
+Bahasa ini banyak mengadopsi sintaksis yang terdapat pada C dan C++ namun dengan sintaksis model 
+objek yang lebih sederhana serta dukungan rutin-rutin aras bawah yang minimal

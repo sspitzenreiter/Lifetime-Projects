@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border ="1">
+<tr>
+<td>
+Masukan Angka 1 <input id="p1" type="text"> <br>
+ Masukan Angka 2<input id ="p2" type="text"> + <br>
+ Hasilnya<input id="hp" type="text"> <button type="button" onclick="myFunction()">Hitung</button>
+ <script>
+function myFunction() {
+	var x,y,z;
+	
+	x = document.getElementById("p1").value;
+	y = document.getElementById("p2").value;
+	
+	z = parseInt(x) + parseInt(y);
+	document.getElementById("hp").value = z;
+	
+}
+
+
+ </td>
+ <td>
+ Masukan Angka 1 <input id="m1" type="text"> <br>
+ Masukan Angka 2<input id ="m2" type="text"> + <br>
+ Hasilnya<input id="hk" type="text"> <button type="button" onclick="myFunction()">Hitung</button>
+
+function myFunction() {
+	var x,y,z;
+	
+	x = document.getElementById("m1").value;
+	y = document.getElementById("m2").value;
+	
+	z = parseInt(x) - parseInt(y);
+	document.getElementById("mk").value = z;
+	
+}
+
+</script></td>
+</tr>
+<tr>
+<td>
+Masukan Angka 1 <input id="d1" type="text"> <br>
+ Masukan Angka 2<input id ="d2" type="text"> + <br>
+ Hasilnya<input id="hd" type="text"> <button type="button" onclick="myFunction()">Hitung</button>
+
+function myFunction() {
+	var x,y,z;
+	
+	x = document.getElementById("d1").value;
+	y = document.getElementById("d2").value;
+	
+	z = parseInt(x) - parseInt(y);
+	document.getElementById("hd").value = z;
+	
+}
+
+
+</td>
+<td>
+Masukan Angka 1 <input id="p1" type="text"> <br>
+ Masukan Angka 2<input id ="p2" type="text"> + <br>
+ Hasilnya<input id="hp" type="text"> <button type="button" onclick="myFunction()">Hitung</button>
+
+function myFunction() {
+	var x,y,z;
+	
+	x = document.getElementById("h1").value;
+	y = document.getElementById("h2").value;
+	
+	z = parseInt(x) - parseInt(y);
+	document.getElementById("hh").value = z;
+	
+}
+
+</script>
+</td>
+</tr>
+ </table>
+
+</body>
+</html>

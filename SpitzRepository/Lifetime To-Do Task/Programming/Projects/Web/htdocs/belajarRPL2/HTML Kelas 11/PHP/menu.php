@@ -1,0 +1,1 @@
+<td colspan="3"><center>|<a href="site1.php"> Home </a>|<a href="site2.php"> Profile </a>|<a href="site3.php"> Download </a>|</center></td>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Javascript</h1>
+
+<button type="button" onclick="myFunction()">
+Klik ane untuk Tanggal Gan.</button>
+
+<p id ="bebas"></p>
+
+<script>
+function myFunction() {
+	var d = new Date();
+	var n = d.toJSON();
+	document.getElementById("bebas").innerHTML = n;
+}
+</script>
+
+</body>
+</html>

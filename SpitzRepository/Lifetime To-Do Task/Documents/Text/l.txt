@@ -1,0 +1,3 @@
+COPY : menduplikasi file dan memindahkannya ke tempat yang dituju
+
+mid(nis,3,3)

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SqLite</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Add New Contacts</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+    <string-array name="spin_list">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Public</item>
+    </string-array>
+</resources>
